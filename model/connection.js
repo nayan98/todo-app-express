@@ -1,4 +1,7 @@
 const mongoose = require('mongoose');
 module.exports = ()=>
-    mongoose.connect('mongodb+srv://nayan98:todoapp@cluster0.zd1zp.mongodb.net/todoapp', {useNewUrlParser: true, useUnifiedTopology: true});
+{
+    const URI = "mongodb+srv://nayan98:todoapp@cluster0.zd1zp.mongodb.net/todoapp"
+   return mongoose.connect(URI, {useNewUrlParser: true, useUnifiedTopology: true});
+}
 
