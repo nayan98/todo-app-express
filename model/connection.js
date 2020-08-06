@@ -9,7 +9,7 @@ module.exports = ()=>
     +process.env.DB_PASSWORD
     +"@cluster0.zd1zp.mongodb.net/"
     +process.env.DB_NAME;
-    console.log(URI);
+    //console.log(URI);
    return mongoose.connect(URI, {useNewUrlParser: true, useUnifiedTopology: true});
 }
 
