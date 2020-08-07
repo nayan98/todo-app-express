@@ -11,7 +11,8 @@ This is a simple Node.js (Express) application using MongoDB.
     npm run start
     
 ### MongoDB
-Atlas (cloud hosted) is used for MongoDB.
+MongoDB Atlas a fully-managed cloud database is used in the app.
+
 
 ### Configuration
 Set up a .env file
