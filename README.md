@@ -3,9 +3,6 @@ This is a simple Node.js (Express) application using MongoDB.
 + Add tasks 
 + Delete Tasks
 
-### Deployed
-+ Heroku -: https://nayan-1998.herokuapp.com/todo
-+ glitch -: https://nayan98-todo-app-express.glitch.me/todo
 ### How to run
     npm install
     npm run start
